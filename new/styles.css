@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* styles.scss */
+/* Definición del mixin border-radius */
+/* Estilos para diferentes selectores utilizando el mixin */
+.e {
+  font-size: 10px;
+  color: blue;
+  font-style: arial;
+}
+
+p {
+  background-color: green;
+  height: 300px;
+  width: 200px;
+}
+
+.header {
+  border-radius: 10px;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  border-radius: 20px;
+  background-color: #f1c40f;
+  padding: 20px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #2ecc71;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */

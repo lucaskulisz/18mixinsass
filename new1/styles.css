@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* styles.scss */
+.btn, .btn-success, .btn-secondary, .btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #3498db;
+}
+
+.btn-secondary {
+  background-color: #f1c40f;
+}
+
+.btn-success {
+  background-color: #2ecc71;
+}
+
+/* Agrega más estilos para otros botones según sea necesario */
+/* ... *//*# sourceMappingURL=styles.css.map */

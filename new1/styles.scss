@@ -1,0 +1,35 @@
+/* styles.scss */
+
+// Estilos para el botón genérico .btn
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+// Estilos para diferentes clases de botones que extienden .btn
+.btn-primary {
+  @extend .btn;
+  background-color: #3498db;
+}
+
+.btn-secondary {
+  @extend .btn;
+  background-color: #f1c40f;
+}
+
+.btn-success {
+  @extend .btn;
+  background-color: #2ecc71;
+}
+
+/* Agrega más estilos para otros botones según sea necesario */
+
+// Otros estilos globales, si los tienes
+/* ... */

@@ -1,0 +1,44 @@
+/* styles.scss */
+
+/* Definición del mixin border-radius */
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+@mixin fondo{background-color: green;height: 300px; width: 200px;;}
+/* Estilos para diferentes selectores utilizando el mixin */
+
+@mixin text-style($font-size: $default-font-size, $color: $default-text-color, $font-style: normal) {
+  font-size: $font-size;
+  color: $color;
+  font-style: $font-style;
+}
+
+.e{
+@include text-style(10px, blue, arial)
+
+}
+p{
+@include fondo()
+
+}
+.header {
+  @include border-radius(10px);
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+}
+
+.card {
+  @include border-radius(20px);
+  background-color: #f1c40f;
+  padding: 20px;
+}
+
+.button {
+  @include border-radius(5px);
+  background-color: #2ecc71;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+}

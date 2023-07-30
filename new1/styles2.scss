@@ -1,0 +1,30 @@
+/* styles.scss */
+
+// Estilos para la clase .box (contenedor genérico)
+.box {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #d64949;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+// Estilos para diferentes tipos de cajas que extienden .box
+.box-primary {
+  @extend .box;
+  border-color: #3498db;
+}
+
+.box-secondary {
+  @extend .box;
+  border-color: #f1c40f;
+}
+
+.box-success {
+  @extend .box;
+  border-color: #2ecc71;
+}
+
+/* Agrega más estilos para otros tipos de cajas según sea necesario */
+
+// Otros estilos globales, si los tienes
+/* ... */
